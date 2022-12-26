@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Hollow Knight</title>
+</head>
+<body>
+    <header id="top">
+        <nav>
+            <div>
+                <a href="../index.html"><img class="menuImage" src="../assets/images/logowhite-hollow-knight.png" alt="Logo Hollow Knight"></a>
+            </div>
+            <ul class="reseteoListas">
+                <a href="./personajes.html"><li>Personajes</li></a>
+                <a href="./team_cherry.html"><li>Team Cherry</li></a>
+                <a href="./contacto.html"><li>Contacto</li></a>
+                <a href="./comprar.html"><li>Comprar</li></a>
+            </ul>
+        </nav>      
+    </header>
+    <main>
+        <div>
+            <video class="contacto__video" autoplay muted loop src="../assets/videos/hollow-knight-background-black.mp4" alt="Wallpaper Hollow Knight con fondo oscuro">
+        </div>
+
+        <section class="formulario">
+            <form action="" method="post" enctype="text/plain">
+                <h2>Formulario de contacto</h2>
+                <p>Completa este formulario y ponte en contacto con nosotros</p>
+                <br>
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <div>
+                        <label for="Nombres">Nombres</label>
+                        <input class="formulario__input" type="text" name="" id="Nombres" placeholder="Ingrese nombres">
+                    </div>
+                    <div>
+                        <label for="Apellidos">Apellidos</label>
+                        <input class="formulario__input" type="text" name="" id="Apellidos" placeholder="Ingrese apellidos">
+                    </div>  
+                    <div>
+                        <label for="Correo">Correo electrónico</label>
+                        <input class="formulario__input" type="email" name="" id="Correo" placeholder="Ingrese correo">
+                    </div>
+                    <div>
+                        <p>Sexo</p>
+                        <div>
+                            <input type="radio" name="sexo" value="femenino" checked>
+                            <label for="">Femenino</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="sexo" value="masculino">
+                            <label for="">Masculino</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="sexo" value="otro">
+                            <label for="">Otro</label>
+                        </div>
+                    <div>
+                        <label for="fechaNacimiento">Fecha de nacimiento</label>
+                        <input class="formulario__input" type="date" name="date" id="fechaNacimiento">
+                    </div>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Tu mensaje</legend>
+                    <div>
+                        <label for="asunto">¿Por qué nos contactas? Piensa en esto como el asunto de tu correo:</label>
+                    </div>
+                    <div>
+                        <select name="" id="asunto">
+                            <option value="buscoAsesoramiento">Busco asesoramiento</option>
+                            <option value="tengoUnComentario">Tengo un comentario</option>
+                            <option value="necesitoAyuda">Necesito ayuda</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+    
+                    <div>
+                        <textarea class="formulario__input" name="" cols="50" rows="10" placeholder="Ingrese su mensaje"></textarea> 
+                    </div> 
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div>
+                        <p>¿Acepta los términos y condiciones?</p>
+                        <input type="checkbox" name="" id="si" value="siAcepta">
+                        <label for="si">Si</label>
+                        <input type="checkbox" name="" id="no" value="noAcepta">
+                        <label for="no">No</label>
+                    </div>
+                </fieldset>
+                <div class="formulario__button">
+                    <input class="formulario__button--reset" type="reset" name="reset" id= value="Resetear">
+                    <input class="formulario__button--send" type="submit" name="Send" id= value="Enviar formulario">
+                </div>
+            </form>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <a href="../index.html"><img class="footerImage" src="../assets/images/logowhite-hollow-knight.png" alt="Logo Hollow Knight"></a>
+        </div>
+        <ul class="reseteoListas">
+            <a href="./personajes.html"><li>Personajes</li></a>
+            <a href="./team_cherry.html"><li>Team Cherry</li></a>
+            <a href="./contacto.html"><li>Contacto</li></a>
+            <a href="./comprar.html"><li>Comprar</li></a>
+            <a href="#top"><li>Volver arriba</li></a>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Hollow Knight</title>
+</head>
+<body>
+
+    <header id="top">
+        <nav>
+            <div>
+                <a href="./index.html"><img class="menuImage" src="../assets/images/logowhite-hollow-knight.png" alt="Logo Hollow Knight"></a>
+            </div>
+            <ul class="reseteoListas">
+                <a href="./pages/personajes.html"><li>Personajes</li></a>
+                <a href="./pages/team_cherry.html"><li>Team Cherry</li></a>
+                <a href="./pages/contacto.html"><li>Contacto</li></a>
+                <a href="./pages/comprar.html"><li>Comprar</li></a>
+            </ul>
+        </nav>      
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <video class="wellcome__video" autoplay muted loop src="../assets/videos/Hollow-Knight-light.mp4" alt="Wallpaper Hollow Knight con luces">
+            </div>
+        </section>
+
+        <section class="personaje">
+            <div class="personaje__texto--izq">
+                <h2>Hollow Knight</h2><br>
+                <p>Conoce a los personajes de este inframundo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus itaque, distinctio totam a obcaecati voluptates? Non repellat cumque et quae soluta magnam, officia molestiae nobis corrupti quia nostrum voluptate mollitia? Consequuntur, corrupti, dolorem sequi architecto aspernatur repellat voluptatum nesciunt eius nam autem reprehenderit consequatur est pariatur optio ad quos temporibus nemo! Corrupti repudiandae omnis atque eum quasi minus suscipit ex neque quos, voluptates, est non fugiat minima. Quae rem ea odit dolore, in dignissimos, repudiandae, hic beatae quo eligendi unde.</p>
+                <button class="verMas__boton"><a href="./pages/personajes.html">Ver más</a></button>
+            </div>
+            <div>
+                <img class="personaje__image--der" src="../assets/images/hollow-knight-personaje.webp" alt="Personaje principal Hollow Knight Caballero">
+            </div>
+        </section>
+
+        <div class="clear"></div>
+        
+        <section>
+            <div class="review">Review 1</div>
+            <div class="review">Review 2</div>
+            <div class="review">Review 3</div>
+        </section>
+
+        <section>
+            <div class="clear">
+                <img class="teamCherry__image" src="../assets/images/team-cherry-logowhite.webp" alt="Team Cherry logo en blanco">
+            </div>
+            <div class="teamCherry">
+                <h2>¿Quiénes somos?</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut eligendi recusandae est perferendis ratione voluptates consectetur impedit veniam perspiciatis nemo vel, aperiam repudiandae! Culpa mollitia incidunt modi neque ducimus vel molestias at maxime, nam, possimus velit voluptatum expedita eveniet quia a temporibus corporis, nesciunt reiciendis ea? Odio eum perferendis, porro illo, id non, ea iste fuga officia veniam natus voluptates sunt. Quod nemo natus nam vitae quis beatae veniam, maiores minima totam sunt molestiae ab deserunt atque numquam deleniti aliquam.</p>
+                <button class="verMas__boton"><a href="./pages/team_cherry.html">Ver más</a></button>
+            </div>
+        </section>
+
+        <section class="buy">
+            <div>
+                <img class="buy__image" src="../assets/images/hollow_knight_cornisa.webp" alt="Personaje de Hollow Knight parado en la cornisa">
+                <button class="buy__button--position"><a href="./pages/comprar.html">Comprar</a></button>
+            </div>
+        </section>
+
+        <section>
+            <div class="faqs">
+                <h2>Preguntas Frecuentes</h2>
+                <h4 class="faqs__pregunta">Pregunta nº1</h4>
+                <p>Respuesta nº1</p>
+                <h4 class="faqs__pregunta">Pregunta nº2</h4>
+                <p>Respuesta nº2</p>
+                <h4 class="faqs__pregunta">Pregunta nº3</h4>
+                <p>Respuesta nº3</p>
+                <h4 class="faqs__pregunta">Pregunta nº4</h4>
+                <p>Respuesta nº4</p>
+            </div>
+        </section>
+
+        <section class="formulario">
+            <form action="" method="post" enctype="text/plain">
+                <h2>Formulario de contacto</h2>
+                <p>Completa este formulario y ponte en contacto con nosotros</p>
+                <br>
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <div>
+                        <label for="Nombres">Nombres</label>
+                        <input class="formulario__input" type="text" name="" id="Nombres" placeholder="Ingrese nombres">
+                    </div>
+                    <div>
+                        <label for="Apellidos">Apellidos</label>
+                        <input class="formulario__input" type="text" name="" id="Apellidos" placeholder="Ingrese apellidos">
+                    </div>  
+                    <div>
+                        <label for="Correo">Correo electrónico</label>
+                        <input class="formulario__input" type="email" name="" id="Correo" placeholder="Ingrese correo">
+                    </div>
+                    <div>
+                        <p>Sexo</p>
+                        <div>
+                            <input type="radio" name="sexo" value="femenino" checked>
+                            <label for="">Femenino</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="sexo" value="masculino">
+                            <label for="">Masculino</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="sexo" value="otro">
+                            <label for="">Otro</label>
+                        </div>
+                    <div>
+                        <label for="fechaNacimiento">Fecha de nacimiento</label>
+                        <input class="formulario__input" type="date" name="date" id="fechaNacimiento">
+                    </div>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Tu mensaje</legend>
+                    <div>
+                        <label for="asunto">¿Por qué nos contactas? Piensa en esto como el asunto de tu correo:</label>
+                    </div>
+                    <div>
+                        <select name="" id="asunto">
+                            <option value="buscoAsesoramiento">Busco asesoramiento</option>
+                            <option value="tengoUnComentario">Tengo un comentario</option>
+                            <option value="necesitoAyuda">Necesito ayuda</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+    
+                    <div>
+                        <textarea class="formulario__input" name="" cols="50" rows="10" placeholder="Ingrese su mensaje"></textarea> 
+                    </div> 
+                </fieldset>
+                <br>
+                <!-- <div>
+                    <label for="Contraseña">Ingrese nombre y apellido</label>
+                    <input type="password" name="" id="Contraseña" placeholder="con por lo menos un número">
+                </div> -->
+                <fieldset>
+                    <div>
+                        <p>¿Acepta los términos y condiciones?</p>
+                        <input type="checkbox" name="" id="si" value="siAcepta">
+                        <label for="si">Si</label>
+                        <input type="checkbox" name="" id="no" value="noAcepta">
+                        <label for="no">No</label>
+                    </div>
+                </fieldset>
+                <div class="formulario__button">
+                    <input class="formulario__button--reset" type="reset" name="reset" id= value="Resetear">
+                    <input class="formulario__button--send" type="submit" name="Send" id= value="Enviar formulario">
+                </div>
+            </form>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <a href="./index.html"><img class="footerImage" src="../assets/images/logowhite-hollow-knight.png" alt="Logo Hollow Knight"></a>
+        </div>
+        <ul class="reseteoListas">
+            <a href="./pages/personajes.html"><li>Personajes</li></a>
+            <a href="./pages/team_cherry.html"><li>Team Cherry</li></a>
+            <a href="./pages/contacto.html"><li>Contacto</li></a>
+            <a href="./pages/comprar.html"><li>Comprar</li></a>
+            <a href="#top"><li>Volver arriba</li></a>
+        </ul>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
