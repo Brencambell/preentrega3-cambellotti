@@ -117,13 +117,137 @@
         </section>
 
         <section id="fifthSectionHome">
-            <div class="container-fluid position-relative">
-                <div class="row justify-content-center">
-                    <img src="./assets/images/hollow_knight_cornisa.webp" class="col-12 img-fluid" alt="Hollow Knight personaje con fondo">
-                    <button class="verMas__boton"><a href="./pages/comprar.html">Comprar</a></button>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 d-flex flex-column justify-content-center align-items-center p-3">
+                        <h2>¡No te lo pierdas!</h2>
+                        <button class="verMas__boton"><a href="./pages/comprar.html">Comprar</a></button>
+                    </div>
+        </section>
+
+        <section id="sixthSectionHome">
+            
+            <div class="accordion accordion-flush container p-5" id="accordionFlushExample">
+
+                <div>
+                    <h2>Preguntas frecuentes</h2>
+                    <p>Para hacer tu consulta puedes contactarnos a traves del forulario de contacto. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, cum.</p>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      ¿Cómo aprendo a jugar?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quaerat cumque dolorum modi. Corrupti accusantium unde, nostrum totam provident, perferendis pariatur, consectetur iusto ipsa corporis quidem. Cupiditate atque veniam error quisquam rem cumque est aspernatur dolorum, illum ipsam labore veritatis!</div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      ¿Cómo puedo comprar el juego desde el exterior?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo">
+                    <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, optio. Laboriosam, ex. Iste possimus ut, commodi ea laboriosam quaerat voluptate aliquam officia distinctio ipsum minima iure tempora consequuntur eaque. Totam voluptates fuga sequi commodi incidunt optio nostrum blanditiis accusantium amet neque, doloribus magnam iure a, qui maiores voluptas iste quibusdam. Nostrum, ipsa unde perferendis recusandae corporis libero ipsum dolor sequi eos facere est, non voluptas maiores voluptate molestiae sed aperiam dolorum fugit at, sit culpa repudiandae exercitationem nihil! Explicabo, quod?.</div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      ¿Es compatible con la PS2?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree">
+                    <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum voluptas quis sunt expedita magnam, reprehenderit soluta nesciunt, doloribus, odio quod error libero tempore sit exercitationem illo est nihil perspiciatis cupiditate nemo id harum? Tempora ab quia aperiam facere eaque esse debitis, at error minus, commodi ullam. Ad animi consectetur rerum labore consequatur totam exercitationem commodi itaque odio provident a ipsum sint, enim quo. Alias a, possimus soluta esse, dolore nisi assumenda, itaque natus inventore rem vel? Earum, optio fugiat illo voluptas quaerat facere in aspernatur quidem sed facilis dolorem explicabo excepturi accusantium voluptatem alias repellendus maiores obcaecati minus aliquam rerum repellat aperiam. Eligendi praesentium veritatis sed laborum doloribus modi aperiam perspiciatis sit, libero culpa distinctio natus delectus debitis voluptatum corporis nostrum! Assumenda accusamus voluptates reprehenderit, quos beatae sequi dolores ipsum quod dolore delectus possimus voluptate dolor architecto recusandae soluta veritatis?</div>
+                  </div>
+                </div>
+
+              </div>
+        </section>
+
+        <section class="formulario">
+            <div class="container">
+                <div class="row">
+                    <form action="" method="post" enctype="text/plain">
+                        <h2>Formulario de contacto</h2>
+                        <p>Completa este formulario y ponte en contacto con nosotros</p>
+                        <br>
+                        <fieldset>
+                            <legend>Datos Personales</legend>
+                            <div>
+                                <label for="Nombres">Nombres</label>
+                                <input class="formulario__input" type="text" name="" id="Nombres" placeholder="Ingrese nombres">
+                            </div>
+                            <div>
+                                <label for="Apellidos">Apellidos</label>
+                                <input class="formulario__input" type="text" name="" id="Apellidos" placeholder="Ingrese apellidos">
+                            </div>  
+                            <div>
+                                <label for="Correo">Correo electrónico</label>
+                                <input class="formulario__input" type="email" name="" id="Correo" placeholder="Ingrese correo">
+                            </div>
+                            <div>
+                                <p>Sexo</p>
+                                <div>
+                                    <input type="radio" name="sexo" value="femenino" checked>
+                                    <label for="">Femenino</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="sexo" value="masculino">
+                                    <label for="">Masculino</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="sexo" value="otro">
+                                    <label for="">Otro</label>
+                                </div>
+                            <div>
+                                <label for="fechaNacimiento">Fecha de nacimiento</label>
+                                <input class="formulario__input" type="date" name="date" id="fechaNacimiento">
+                            </div>
+                            </div>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend>Tu mensaje</legend>
+                            <div>
+                                <label for="asunto">¿Por qué nos contactas? Piensa en esto como el asunto de tu correo:</label>
+                            </div>
+                            <div>
+                                <select name="" id="asunto">
+                                    <option value="buscoAsesoramiento">Busco asesoramiento</option>
+                                    <option value="tengoUnComentario">Tengo un comentario</option>
+                                    <option value="necesitoAyuda">Necesito ayuda</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+            
+                            <div>
+                                <textarea class="formulario__input" name="" cols="50" rows="10" placeholder="Ingrese su mensaje"></textarea> 
+                            </div> 
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <div>
+                                <p>¿Acepta los términos y condiciones?</p>
+                                <input type="checkbox" name="" id="si" value="siAcepta">
+                                <label for="si">Si</label>
+                                <input type="checkbox" name="" id="no" value="noAcepta">
+                                <label for="no">No</label>
+                            </div>
+                        </fieldset>
+                        <div class="formulario__button">
+                            <input class="formulario__button--reset" type="reset" name="reset" id= value="Resetear">
+                            <input class="formulario__button--send" type="submit" name="Send" id= value="Enviar formulario">
+                        </div>
+                    </form>
+                </div>
                 </div>
             </div>
-
         </section>
 
     </main>
