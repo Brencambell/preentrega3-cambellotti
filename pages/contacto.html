@@ -4,25 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Hollow Knight</title>
 </head>
 <body>
-    <header id="top">
-        <nav>
-            <div>
-                <a href="../index.html"><img class="menuImage" src="../assets/images/logowhite-hollow-knight.png" alt="Logo Hollow Knight"></a>
+    <header class="container-fluid" id="top">
+        <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav"> 
+            <!--fixed-top-->
+            <div class="container">
+                <a class="col-4 navbar-brand" href="./index.html"><img src="./assets/images/logowhite-hollow-knight.png" width="35%" height="auto" class="img-fluid" alt="Logo Hollow Knight Menu" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menú
+                </button>
+                <div class="col-8 collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="./pages/personajes.html">Personajes</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/team_cherry.html">Team Cherry</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/comprar.html">Comprar</a></li>
+                    </ul>
+                </div>
             </div>
-            <ul class="reseteoListas">
-                <a href="./personajes.html"><li>Personajes</li></a>
-                <a href="./team_cherry.html"><li>Team Cherry</li></a>
-                <a href="./contacto.html"><li>Contacto</li></a>
-                <a href="./comprar.html"><li>Comprar</li></a>
-            </ul>
-        </nav>      
+        </nav>
     </header>
+
     <main>
         <div>
             <video class="contacto__video" autoplay muted loop src="../assets/videos/hollow-knight-background-black.mp4" alt="Wallpaper Hollow Knight con fondo oscuro">
@@ -104,17 +114,22 @@
         </div>
         </section>
     </main>
-    <footer>
-        <div>
-            <a href="../index.html"><img class="footerImage" src="../assets/images/logowhite-hollow-knight.png" alt="Logo Hollow Knight"></a>
-        </div>
-        <ul class="reseteoListas">
-            <a href="./personajes.html"><li>Personajes</li></a>
-            <a href="./team_cherry.html"><li>Team Cherry</li></a>
-            <a href="./contacto.html"><li>Contacto</li></a>
-            <a href="./comprar.html"><li>Comprar</li></a>
-            <a href="#top"><li>Volver arriba</li></a>
-        </ul>
+
+    <footer class="container-fluid p-3">
+        <div id="footer" class="row">   
+                <ul class="reseteoListas p-3 col-8 d-flex flex-wrap justify-content-around align-items-center" >
+                    <li class="nav-item p-2"><a class="nav-link" href="./pages/personajes.html">Personajes</a></li>
+                    <li class="nav-item p-2"><a class="nav-link" href="./pages/team_cherry.html">Team Cherry</a></li>
+                    <li class="nav-item p-2"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                    <li class="nav-item p-2"><a class="nav-link" href="./pages/comprar.html">Comprar</a></li>
+                    <li class="nav-item p-2"><a class="nav-link" href="#top">Volver arriba</a></li>
+                </ul> 
+            <div class="col-4">
+                <a href="./index.html" class="d-flex justify-content-end"><img src="./assets/images/logowhite-hollow-knight.png" alt="Logo Hollow Knight" class="img-fluid" width="35%" height="auto"></a>
+            </div>
+        </div>       
     </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
