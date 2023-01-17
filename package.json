@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/Brencambell/preentrega2-cambellotti.git"
   },
-  "author": "",
+  "author": "Brenda Cambellotti",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Brencambell/preentrega2-cambellotti/issues"
@@ -208,5 +208,8 @@
     "yargs": "^17.6.2",
     "yargs-parser": "^20.2.9"
   },
-  "description": ""
+  "description": "Hollow Knight se trata de un videojuego creado por Team Cherry en 2017. 
+  El modo de juego de Hollow Knight se enfoca principalmente en exploración, plataformas y combate. Los jugadores exploran un gran mundo interconectado usando una variedad de movimientos y técnicas de combate.
+  En este poyecto se rediseña el sitio web de Hollow Knight con la finalidad de venta del videojuego.
+  Enjoy"
 }
