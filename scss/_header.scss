@@ -1,5 +1,5 @@
 #mainNav{
-    background-color: rgb(0, 0, 0);
+    background-color: $background-principal;
     height: 25vh;
         .container{
             .navbar-toggler{
@@ -8,7 +8,7 @@
                 }
             #navbarResponsive{
                 .navbar-nav{
-                        background-color: black;
+                        background-color: $background-principal;
                         padding: 20px;
                     li{
                         }

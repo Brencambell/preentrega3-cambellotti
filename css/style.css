@@ -1,6 +1,14 @@
-@font-face {
-  font-family: "TrajanProRegular";
-  src: url(../assets/fonts/TrajanPro-Regular.ttf); }
+body {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  @font-face font-family: "TrajanProRegular";
+  src: url(../assets/fonts/TrajanPro-Regular.ttf);
+  color: white;
+  background-color: black;
+  height: 100vh; }
 
 #mainNav {
   background-color: black;
@@ -17,3 +25,14 @@
       font-size: 1.2em;
       float: right;
       position: sticky; }
+
+footer {
+  background-color: black; }
+  footer #footer ul {
+    list-style-type: none;
+    text-decoration: none; }
+    footer #footer ul a:link,
+    footer #footer ul a:visited,
+    footer #footer ul a:active {
+      list-style-type: none;
+      text-decoration: none; }

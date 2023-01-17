@@ -1,5 +1,6 @@
-@font-face {
-    font-family: "TrajanProRegular";
-    src: url(../assets/fonts/TrajanPro-Regular.ttf);
-  }
+@import "./variables";
+@import "./mixin";
+@import "./body";
 @import "./header";
+@import "./footer";
+@import "./_home/mainHome";

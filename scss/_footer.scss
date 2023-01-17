@@ -1,0 +1,10 @@
+footer{
+   background-color: $background-principal;
+      #footer{
+         ul{ @include reseteoDeListas; 
+            li{
+
+            }
+         }
+      }
+}
