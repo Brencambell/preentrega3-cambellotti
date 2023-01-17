@@ -1,9 +1,9 @@
 body {
     @include reseteoGeneral;
-    @font-face
+    @font-face {
         font-family: "TrajanProRegular";
-        src: url(../assets/fonts/TrajanPro-Regular.ttf);
+        src: url(../assets/fonts/TrajanPro-Regular.ttf);}
     color: white;
-    background-color: rgb(0, 0, 0);
+    background-color: $background-principal;
     height: 100vh;
 }

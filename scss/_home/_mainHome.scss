@@ -1,0 +1,163 @@
+main{
+    background-color: $background-principal;
+       #firstSectionHome{
+
+        }
+        #secondSectionHome{
+           div{
+            div{
+                div{
+                    .verMas__boton {
+                        @include verMas__boton;
+                        &:hover {
+                            background-color: rgb(8, 15, 70);
+                            color: white;
+                            border: 2px sollid white;
+                                 }
+                        a{
+                            text-decoration: none;
+                            color: black;
+                            &:hover {
+                                background-color: rgb(8, 15, 70);
+                                color: white;
+                                border: 2px sollid white;
+                                     }
+                        }
+                }
+            }
+           } 
+        }
+        }
+        #thirdSectionHome{
+            background-color: rgb(255, 255, 255);
+            color: black;
+            margin: 10px;
+            padding: 10px;
+        }
+        #fourthSectionHome{
+            div{
+                div{
+                    div{
+                        .verMas__boton {
+                            @include verMas__boton;
+                            &:hover {
+                                background-color: rgb(8, 15, 70);
+                                color: white;
+                                border: 2px sollid white;
+                                     }
+                                a{
+                                text-decoration: none;
+                                color: black;
+                                &:hover {
+                                    background-color: rgb(8, 15, 70);
+                                    color: white;
+                                    border: 2px sollid white;
+                                         }
+                                }
+                        }
+                    }
+                }
+            }
+        }
+        #fifthSectionHome{
+            background-image: url(../assets/images/hollow_knight_cornisa.webp);
+            height: 800px;
+            background-size: cover;
+            background-position: center;
+                div{
+                    div{
+                        div{
+                            .verMas__boton {
+                                @include verMas__boton;
+                                &:hover {
+                                    background-color: rgb(8, 15, 70);
+                                    color: white;
+                                    border: 2px sollid white;
+                                        }
+                                a{
+                                    text-decoration: none;
+                                    color: black;
+                                    &:hover {
+                                        background-color: rgb(8, 15, 70);
+                                        color: white;
+                                        border: 2px sollid white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+        }
+        #sixthSectionHome{
+            div{
+                .accordion-item{
+                    background-color: $background-principal;
+                    color: white;
+                        .accordion-button{
+                            background-color: rgb(255, 255, 255);
+                            color: black;
+                            border: solid 2px rgb(80, 80, 80);
+                            &:hover {
+                            background-color: rgb(248, 215, 149);
+                            }
+                        }
+                }
+            }
+
+        }
+        .formulario{
+            background-color: $background-principal;
+            background-image: linear-gradient(0deg, #142765 0%, #000000 100%);  
+            padding: 50px; 
+                form{
+                    width: 50%;
+                    height: auto;
+                    margin: 50px auto;
+                    padding: 50px;
+                    border-radius: 1rem;
+                    background-color: rgb(255, 255, 255);
+                    color: #000000;
+                    overflow: hidden;
+                        fieldset {
+                            border: 2px solid #0b2d9f;
+                            border-radius: 3px;
+                            box-shadow: none;
+                            padding: 10px; 
+                                legend {
+                                    font-weight: bold;
+                                    .formulario__input{
+                                        font-size: 0.8rem;
+                                        padding: 10px;
+                                        outline: none;
+                                        width: 100%;
+                                        resize: none; 
+                                        }
+                                    .formulario__boton{
+                                        .formulario__button--reset{
+                                            @include formulario__boton;
+                                            background-color: none;
+                                            color: $background-principal;
+                                            width: 100px;
+                                            height: 30px;
+                                            margin: 10px 0;
+                                            float: left;                              
+                                        }
+                                        .formulario__button--send{
+                                            @include formulario__boton;
+                                            background-color: white;
+                                            color: $background-principal;
+                                            font-weight: bold;
+                                            width: 150px;
+                                            height: 50px;
+                                            margin: 10px 0;
+                                            float: right;
+                                        }
+                                    }
+                                }
+                                }
+                            
+                        
+                }
+
+        }
+}

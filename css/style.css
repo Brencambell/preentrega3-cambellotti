@@ -4,11 +4,14 @@ body {
   margin: 0px;
   padding: 0;
   box-sizing: border-box;
-  @font-face font-family: "TrajanProRegular";
-  src: url(../assets/fonts/TrajanPro-Regular.ttf);
   color: white;
   background-color: black;
   height: 100vh; }
+
+@font-face {
+  body {
+    font-family: "TrajanProRegular";
+    src: url(../assets/fonts/TrajanPro-Regular.ttf); } }
 
 #mainNav {
   background-color: black;
@@ -25,6 +28,133 @@ body {
       font-size: 1.2em;
       float: right;
       position: sticky; }
+
+main {
+  background-color: black; }
+  main #secondSectionHome div div div .verMas__boton {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    outline: none;
+    text-decoration: none; }
+    main #secondSectionHome div div div .verMas__boton:hover {
+      background-color: #080f46;
+      color: white;
+      border: 2px sollid white; }
+    main #secondSectionHome div div div .verMas__boton a {
+      text-decoration: none;
+      color: black; }
+      main #secondSectionHome div div div .verMas__boton a:hover {
+        background-color: #080f46;
+        color: white;
+        border: 2px sollid white; }
+  main #thirdSectionHome {
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 10px; }
+  main #fourthSectionHome div div div .verMas__boton {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    outline: none;
+    text-decoration: none; }
+    main #fourthSectionHome div div div .verMas__boton:hover {
+      background-color: #080f46;
+      color: white;
+      border: 2px sollid white; }
+    main #fourthSectionHome div div div .verMas__boton a {
+      text-decoration: none;
+      color: black; }
+      main #fourthSectionHome div div div .verMas__boton a:hover {
+        background-color: #080f46;
+        color: white;
+        border: 2px sollid white; }
+  main #fifthSectionHome {
+    background-image: url(../assets/images/hollow_knight_cornisa.webp);
+    height: 800px;
+    background-size: cover;
+    background-position: center; }
+    main #fifthSectionHome div div div .verMas__boton {
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      width: 150px;
+      height: 50px;
+      margin-top: 20px;
+      outline: none;
+      text-decoration: none; }
+      main #fifthSectionHome div div div .verMas__boton:hover {
+        background-color: #080f46;
+        color: white;
+        border: 2px sollid white; }
+      main #fifthSectionHome div div div .verMas__boton a {
+        text-decoration: none;
+        color: black; }
+        main #fifthSectionHome div div div .verMas__boton a:hover {
+          background-color: #080f46;
+          color: white;
+          border: 2px sollid white; }
+  main #sixthSectionHome div .accordion-item {
+    background-color: black;
+    color: white; }
+    main #sixthSectionHome div .accordion-item .accordion-button {
+      background-color: white;
+      color: black;
+      border: solid 2px #505050; }
+      main #sixthSectionHome div .accordion-item .accordion-button:hover {
+        background-color: #f8d795; }
+  main .formulario {
+    background-color: black;
+    background-image: linear-gradient(0deg, #142765 0%, #000000 100%);
+    padding: 50px; }
+    main .formulario form {
+      width: 50%;
+      height: auto;
+      margin: 50px auto;
+      padding: 50px;
+      border-radius: 1rem;
+      background-color: white;
+      color: #000000;
+      overflow: hidden; }
+      main .formulario form fieldset {
+        border: 2px solid #0b2d9f;
+        border-radius: 3px;
+        box-shadow: none;
+        padding: 10px; }
+        main .formulario form fieldset legend {
+          font-weight: bold; }
+          main .formulario form fieldset legend .formulario__input {
+            font-size: 0.8rem;
+            padding: 10px;
+            outline: none;
+            width: 100%;
+            resize: none; }
+          main .formulario form fieldset legend .formulario__boton .formulario__button--reset {
+            outline: none;
+            text-decoration: none;
+            background-color: none;
+            color: black;
+            width: 100px;
+            height: 30px;
+            margin: 10px 0;
+            float: left; }
+          main .formulario form fieldset legend .formulario__boton .formulario__button--send {
+            outline: none;
+            text-decoration: none;
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            width: 150px;
+            height: 50px;
+            margin: 10px 0;
+            float: right; }
 
 footer {
   background-color: black; }
