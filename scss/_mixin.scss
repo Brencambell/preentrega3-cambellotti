@@ -28,7 +28,8 @@
     text-decoration: none;
 }
 
-@mixin formulario__boton {
+@mixin formulario__button {
     outline: none;
     text-decoration: none;
+    margin: 10px 0;
   }

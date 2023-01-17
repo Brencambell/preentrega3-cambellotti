@@ -8500,7 +8500,7 @@ main {
     background-color: black;
     background-image: linear-gradient(0deg, #142765 0%, #000000 100%);
     padding: 50px; }
-    main .formulario form {
+    main .formulario div div form {
       width: 50%;
       height: auto;
       margin: 50px auto;
@@ -8509,38 +8509,39 @@ main {
       background-color: white;
       color: #000000;
       overflow: hidden; }
-      main .formulario form fieldset {
+      main .formulario div div form fieldset {
         border: 2px solid #0b2d9f;
         border-radius: 3px;
         box-shadow: none;
         padding: 10px; }
-        main .formulario form fieldset legend {
+        main .formulario div div form fieldset legend {
           font-weight: bold; }
-          main .formulario form fieldset legend .formulario__input {
-            font-size: 0.8rem;
-            padding: 10px;
-            outline: none;
-            width: 100%;
-            resize: none; }
-          main .formulario form fieldset legend .formulario__boton .formulario__button--reset {
-            outline: none;
-            text-decoration: none;
-            background-color: none;
-            color: black;
-            width: 100px;
-            height: 30px;
-            margin: 10px 0;
-            float: left; }
-          main .formulario form fieldset legend .formulario__boton .formulario__button--send {
-            outline: none;
-            text-decoration: none;
-            background-color: white;
-            color: black;
-            font-weight: bold;
-            width: 150px;
-            height: 50px;
-            margin: 10px 0;
-            float: right; }
+      main .formulario div div form .formulario__button .formulario__button--reset {
+        outline: none;
+        text-decoration: none;
+        margin: 10px 0;
+        background-color: none;
+        color: black;
+        width: 100px;
+        height: 30px;
+        float: left; }
+      main .formulario div div form .formulario__button .formulario__button--send {
+        outline: none;
+        text-decoration: none;
+        margin: 10px 0;
+        background-color: white;
+        color: black;
+        font-weight: bold;
+        width: 150px;
+        height: 50px;
+        float: right; }
+
+.formulario__input {
+  font-size: 0.8rem;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+  resize: none; }
 
 main div div .teamCherry__video {
   width: 100%;
