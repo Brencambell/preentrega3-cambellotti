@@ -1,0 +1,41 @@
+main {
+    section {
+        div {
+            div{
+                .buy__wellcomeVideo{
+                    width: 100%;
+                    min-height: 600px; 
+                }
+            }
+        }
+    }
+    .buy__container--dark{
+        background-image: linear-gradient(to right bottom, #121315, #121a28, #11203b, #11254f, #172a63);
+        padding: 10%;
+        .buy__container--white{
+            background-color: rgb(255, 255, 255);
+            color: black;
+            width: 60vw;
+            margin: 0px auto;
+            padding: 10%;
+            border-radius: 1rem;
+                .verMas__boton {
+                    @include verMas__boton;
+                    &:hover {
+                        background-color: rgb(8, 15, 70);
+                        color: white;
+                        border: 2px sollid white;
+                             }
+                             a{
+                                text-decoration: none;
+                                color: black;
+                                &:hover {
+                                    background-color: rgb(8, 15, 70);
+                                    color: white;
+                                    border: 2px sollid white;
+                                         }
+                }
+        }
+    }
+}
+}

@@ -155,6 +155,45 @@ main {
             margin: 10px 0;
             float: right; }
 
+main div div .teamCherry__video {
+  width: 100%;
+  min-height: 600px; }
+
+main section div div .buy__wellcomeVideo {
+  width: 100%;
+  min-height: 600px; }
+
+main .buy__container--dark {
+  background-image: linear-gradient(to right bottom, #121315, #121a28, #11203b, #11254f, #172a63);
+  padding: 10%; }
+  main .buy__container--dark .buy__container--white {
+    background-color: white;
+    color: black;
+    width: 60vw;
+    margin: 0px auto;
+    padding: 10%;
+    border-radius: 1rem; }
+    main .buy__container--dark .buy__container--white .verMas__boton {
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      width: 150px;
+      height: 50px;
+      margin-top: 20px;
+      outline: none;
+      text-decoration: none; }
+      main .buy__container--dark .buy__container--white .verMas__boton:hover {
+        background-color: #080f46;
+        color: white;
+        border: 2px sollid white; }
+      main .buy__container--dark .buy__container--white .verMas__boton a {
+        text-decoration: none;
+        color: black; }
+        main .buy__container--dark .buy__container--white .verMas__boton a:hover {
+          background-color: #080f46;
+          color: white;
+          border: 2px sollid white; }
+
 footer {
   background-color: black; }
   footer #footer ul {
